@@ -3,8 +3,8 @@
 
 Данный бот поддерживает работу со следующими иерархиями PDF-документа:
 
-1) Формат 1
+![Формат 1](https://github.com/owls-nlp/pdf_tools_bot_ICQ/blob/master/info/images/format_1.jpg)
 
-2) Формат 2
+![Формат 1](https://github.com/owls-nlp/pdf_tools_bot_ICQ/blob/master/info/images/format_2.jpg)
 
-3) Формат 3
+![Формат 1](https://github.com/owls-nlp/pdf_tools_bot_ICQ/blob/master/info/images/format_3.jpg)
