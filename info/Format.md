@@ -3,10 +3,10 @@
 
 Данный бот поддерживает работу со следующими иерархиями PDF-документа:
 
-<div style="text-align:center"><img src="https://github.com/owls-nlp/pdf_tools_bot_ICQ/blob/master/info/images/format_1.jpg" /></div>
+1) Формат 1 - двухколонная верстка с сортировкой по правилу «если нетекстовый элемент заверстывают поперек полосы на несколько колонок, текст из каждой колонки не переходит в следующую через нетекстовый элемент»;
 
-![Формат 1](https://github.com/owls-nlp/pdf_tools_bot_ICQ/blob/master/info/images/format_1.jpg) - двухколонная верстка с сортировкой по правилу «если нетекстовый элемент заверстывают поперек полосы на несколько колонок, текст из каждой колонки не переходит в следующую через нетекстовый элемент»;
+2) Формат 2 - двухколонная верстка с сортировкой по правилу «если нетекстовый элемент заверстывают поперек полосы на несколько колонок, текст из каждой колонки переходит в следующую через нетекстовый элемент»;
 
-![Формат 1](https://github.com/owls-nlp/pdf_tools_bot_ICQ/blob/master/info/images/format_2.jpg)
+3) Формат 3 - одноколонная верстка.
 
-![Формат 1](https://github.com/owls-nlp/pdf_tools_bot_ICQ/blob/master/info/images/format_3.jpg)
+![Форматы 1, 2 и 3 соответственно](https://github.com/owls-nlp/pdf_tools_bot_ICQ/blob/master/info/images/formats.jpg) 
