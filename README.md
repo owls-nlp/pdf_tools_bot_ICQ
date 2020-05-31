@@ -33,3 +33,8 @@ pdf_tools_bot_ICQ
 - [извлечение текста](info/Text_extraction.md);
 
 - [сбор docx-документа](info/Build_docx.md).
+
+Сбор Docker-контейнера
+-----------------------------------
+1. Необходимо добавить папку models и скачать в нее модели. Ссылка на скачивание: https://drive.google.com/drive/folders/1BnG8JieuJk_nnx_fFLJH1hGnowmSc2KV?usp=sharing
+2. В папку tesseract_data необходимо добавить файлы модели (rus, eng, lat) Tesseract OCR. Ссылка на скачивание: https://github.com/tesseract-ocr/tessdata 
