@@ -33,6 +33,7 @@ RUN pip3 install detectron2==0.1.1 -f https://dl.fbaipublicfiles.com/detectron2/
 RUN pip3 install openpyxl
 RUN pip3 install gevent
 RUN pip3 install --upgrade mailru-im-bot
+RUN pip3 install wget
 
 # Задаем рабочую папку
 WORKDIR /home/app/
