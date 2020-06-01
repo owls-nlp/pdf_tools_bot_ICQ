@@ -691,7 +691,7 @@ class Document:
         }
         
         image_path = result['path_to_tmp_folder'] + '/' + 'image.jpg'
-        os.system(f'convert -density {self.dpi} -background white -alpha remove {file_path} -quality 100 {image_path}')
+        os.system(f'convert -density {self.dpi} -background white -alpha remove "{file_path}" -quality 100 {image_path}')
         
         files = os.listdir(result['path_to_tmp_folder'])
         

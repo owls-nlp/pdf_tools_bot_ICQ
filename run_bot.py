@@ -266,7 +266,8 @@ def extract_images(path_to_pdf: str):
 def process_document(file_id: str, process_type: int):
     '''Функция получает id файла в icq и тип обработки, а возвращает путь до файлов, которые необходимо загрузить'''
     url_for_download, file_name = get_url_for_download(file_id)
-    save_path = f'./tmp_files/{file_name}'
+    random_s = random_string(20)
+    save_path = f'./tmp_files/{random_s}.pdf'
     wget.download(url_for_download, save_path)
 
     if process_type == 1: #извлекаем только изображения
